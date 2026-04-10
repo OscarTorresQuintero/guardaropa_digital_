@@ -21,6 +21,14 @@ version: 1.0.0+1
 environment:
   sdk: ^3.11.4
 
+provider: ^6.1.2
+shared_preferences: ^2.3.2
+image_picker: ^1.1.2
+http: ^1.2.2
+vibration: ^2.0.0
+sensors_plus: ^4.0.2
+
+
 # Dependencies specify other packages that your package needs in order to work.
 # To automatically upgrade your package dependencies to the latest versions
 # consider running `flutter pub upgrade --major-versions`. Alternatively,
