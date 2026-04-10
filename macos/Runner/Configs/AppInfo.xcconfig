@@ -5,10 +5,17 @@
 // 'flutter create' template.
 
 // The application's name. By default this is also the title of the Flutter window.
+ feature/forms_components
 PRODUCT_NAME = guardaropa_digital_
 
 // The application's bundle identifier
 PRODUCT_BUNDLE_IDENTIFIER = com.example.guardaropaDigital
+
+PRODUCT_NAME = stylestack
+
+// The application's bundle identifier
+PRODUCT_BUNDLE_IDENTIFIER = com.example.stylestack
+developer
 
 // The copyright displayed in application information
 PRODUCT_COPYRIGHT = Copyright © 2026 com.example. All rights reserved.

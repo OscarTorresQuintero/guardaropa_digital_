@@ -6,7 +6,11 @@ plugins {
 }
 
 android {
+ feature/forms_components
     namespace = "com.example.guardaropa_digital_"
+
+    namespace = "com.example.stylestack"
+ developer
     compileSdk = flutter.compileSdkVersion
     ndkVersion = flutter.ndkVersion
 
@@ -21,7 +25,11 @@ android {
 
     defaultConfig {
         // TODO: Specify your own unique Application ID (https://developer.android.com/studio/build/application-id.html).
+ feature/forms_components
         applicationId = "com.example.guardaropa_digital_"
+
+        applicationId = "com.example.stylestack"
+ developer
         // You can update the following values to match your application needs.
         // For more information, see: https://flutter.dev/to/review-gradle-config.
         minSdk = flutter.minSdkVersion

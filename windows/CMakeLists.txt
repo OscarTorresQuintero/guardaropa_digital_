@@ -1,10 +1,18 @@
 # Project-level configuration.
 cmake_minimum_required(VERSION 3.14)
+feature/forms_components
 project(guardaropa_digital_ LANGUAGES CXX)
 
 # The name of the executable created for the application. Change this to change
 # the on-disk name of your application.
 set(BINARY_NAME "guardaropa_digital_")
+
+project(stylestack LANGUAGES CXX)
+
+# The name of the executable created for the application. Change this to change
+# the on-disk name of your application.
+set(BINARY_NAME "stylestack")
+ developer
 
 # Explicitly opt in to modern CMake behaviors to avoid warnings with recent
 # versions of CMake.

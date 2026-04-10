@@ -1,6 +1,10 @@
 {
+feature/forms_components
     "name": "guardaropa_digital_",
     "short_name": "guardaropa_digital_",
+"name": "stylestack",
+    "short_name": "stylestack",
+ developer
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",

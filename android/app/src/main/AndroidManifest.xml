@@ -1,6 +1,10 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android">
     <application
+feature/forms_components
         android:label="guardaropa_digital_"
+
+        android:label="stylestack"
+ developer
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher">
         <activity
