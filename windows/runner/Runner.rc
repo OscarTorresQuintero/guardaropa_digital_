@@ -90,12 +90,21 @@ BEGIN
         BLOCK "040904e4"
         BEGIN
             VALUE "CompanyName", "com.example" "\0"
+ feature/forms_components
+            VALUE "FileDescription", "guardaropa_digital_" "\0"
+            VALUE "FileVersion", VERSION_AS_STRING "\0"
+            VALUE "InternalName", "guardaropa_digital_" "\0"
+            VALUE "LegalCopyright", "Copyright (C) 2026 com.example. All rights reserved." "\0"
+            VALUE "OriginalFilename", "guardaropa_digital_.exe" "\0"
+            VALUE "ProductName", "guardaropa_digital_" "\0"
+
             VALUE "FileDescription", "stylestack" "\0"
             VALUE "FileVersion", VERSION_AS_STRING "\0"
             VALUE "InternalName", "stylestack" "\0"
             VALUE "LegalCopyright", "Copyright (C) 2026 com.example. All rights reserved." "\0"
             VALUE "OriginalFilename", "stylestack.exe" "\0"
             VALUE "ProductName", "stylestack" "\0"
+developer
             VALUE "ProductVersion", VERSION_AS_STRING "\0"
         END
     END
@@ -106,16 +115,13 @@ BEGIN
 END
 
 #endif    // English (United States) resources
-/////////////////////////////////////////////////////////////////////////////
 
 
 
 #ifndef APSTUDIO_INVOKED
-/////////////////////////////////////////////////////////////////////////////
-//
 // Generated from the TEXTINCLUDE 3 resource.
-//
 
 
-/////////////////////////////////////////////////////////////////////////////
+
+
 #endif    // not APSTUDIO_INVOKED

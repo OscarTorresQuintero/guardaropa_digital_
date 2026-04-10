@@ -15,7 +15,11 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "33CC10EC2044A3C60003C045"
+ feature/forms_components
+               BuildableName = "guardaropa_digital_.app"
+
                BuildableName = "stylestack.app"
+ developer
                BlueprintName = "Runner"
                ReferencedContainer = "container:Runner.xcodeproj">
             </BuildableReference>
@@ -31,7 +35,11 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "33CC10EC2044A3C60003C045"
+ feature/forms_components
+            BuildableName = "guardaropa_digital_.app"
+
             BuildableName = "stylestack.app"
+developer
             BlueprintName = "Runner"
             ReferencedContainer = "container:Runner.xcodeproj">
          </BuildableReference>
@@ -66,7 +74,10 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "33CC10EC2044A3C60003C045"
-            BuildableName = "stylestack.app"
+ feature/forms_components
+            BuildableName = "guardaropa_digital_.app"
+    BuildableName = "stylestack.app"
+ developer
             BlueprintName = "Runner"
             ReferencedContainer = "container:Runner.xcodeproj">
          </BuildableReference>
@@ -83,7 +94,11 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "33CC10EC2044A3C60003C045"
+feature/forms_components
+            BuildableName = "guardaropa_digital_.app"
+
             BuildableName = "stylestack.app"
+developer
             BlueprintName = "Runner"
             ReferencedContainer = "container:Runner.xcodeproj">
          </BuildableReference>

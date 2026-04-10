@@ -27,7 +27,11 @@ int APIENTRY wWinMain(_In_ HINSTANCE instance, _In_opt_ HINSTANCE prev,
   FlutterWindow window(project);
   Win32Window::Point origin(10, 10);
   Win32Window::Size size(1280, 720);
+ feature/forms_components
+  if (!window.Create(L"guardaropa_digital_", origin, size)) {
+
   if (!window.Create(L"stylestack", origin, size)) {
+developer
     return EXIT_FAILURE;
   }
   window.SetQuitOnClose(true);

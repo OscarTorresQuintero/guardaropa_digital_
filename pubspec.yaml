@@ -1,5 +1,10 @@
+ feature/forms_components
+name: style_stack
+description: "Gestor de guardarropa digital - StyleStack"
+
 name: stylestack
 description: "A new Flutter project."
+ developer
 # The following line prevents the package from being accidentally published to
 # pub.dev using `flutter pub publish`. This is preferred for private packages.
 publish_to: 'none' # Remove this line if you wish to publish to pub.dev
@@ -19,10 +24,14 @@ publish_to: 'none' # Remove this line if you wish to publish to pub.dev
 version: 1.0.0+1
 
 environment:
+feature/forms_components
+  sdk: ^3.11.0
+
+
   sdk: ^3.11.4
 
  feature/logic-api-provider
-=======
+
 provider: ^6.1.2
 shared_preferences: ^2.3.2
 image_picker: ^1.1.2
@@ -31,6 +40,7 @@ vibration: ^2.0.0
 sensors_plus: ^4.0.2
 
 
+ developer
  developer
 # Dependencies specify other packages that your package needs in order to work.
 # To automatically upgrade your package dependencies to the latest versions
@@ -47,6 +57,11 @@ dependencies:
   http: ^1.2.2
   vibration: ^2.0.0
   sensors_plus: ^4.0.2
+ feature/forms_components
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^1.0.8
+
 
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
@@ -56,6 +71,7 @@ dependencies:
   
 
   cupertino_icons: ^1.0.8
+ developer
  developer
 
 dev_dependencies:
