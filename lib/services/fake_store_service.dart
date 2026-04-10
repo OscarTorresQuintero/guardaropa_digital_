@@ -63,8 +63,21 @@ class OutfitMiniPlayer extends StatelessWidget {
                       maxLines: 1,
                       overflow: TextOverflow.ellipsis,
                     ),
+                    if (outfit != null)
+                      Text(
+                        outfit!.category,
+                        style: theme.textTheme.bodySmall?.copyWith(
+                          color: colorScheme.primary,
+                        ),
+                      ),
                   ],
                 ),
+              ),
+              IconButton(
+                icon: const Icon(Icons.shuffle_rounded),
+                color: colorScheme.primary,
+                tooltip: 'Shuffle outfit',
+                onPressed: onShuffled,
               ),
             ],
           ),
