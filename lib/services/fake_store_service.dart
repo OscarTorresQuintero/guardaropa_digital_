@@ -1,3 +1,4 @@
+import 'dart:io';
 import 'package:flutter/material.dart';
 import '../models/garment.dart';
 
@@ -22,7 +23,52 @@ class OutfitMiniPlayer extends StatelessWidget {
       borderRadius: const BorderRadius.vertical(top: Radius.circular(20)),
       child: SafeArea(
         top: false,
-        child: Container(),
+        child: Padding(
+          padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 10),
+          child: Row(
+            children: [
+              ClipRRect(
+                borderRadius: BorderRadius.circular(10),
+                child: SizedBox(
+                  width: 48,
+                  height: 48,
+                  child: outfit?.photoPath != null
+                      ? Image.file(
+                          File(outfit!.photoPath!),
+                          fit: BoxFit.cover,
+                        )
+                      : Container(
+                          color: colorScheme.surface,
+                          child: const Icon(Icons.checkroom),
+                        ),
+                ),
+              ),
+              const SizedBox(width: 12),
+              Expanded(
+                child: Column(
+                  mainAxisSize: MainAxisSize.min,
+                  crossAxisAlignment: CrossAxisAlignment.start,
+                  children: [
+                    Text(
+                      'Outfit sugerido',
+                      style: theme.textTheme.labelSmall?.copyWith(
+                        color: colorScheme.onSecondaryContainer.withOpacity(0.7),
+                      ),
+                    ),
+                    Text(
+                      outfit?.name ?? 'Agrega prendas para ver sugerencias',
+                      style: theme.textTheme.bodyMedium?.copyWith(
+                        fontWeight: FontWeight.w600,
+                      ),
+                      maxLines: 1,
+                      overflow: TextOverflow.ellipsis,
+                    ),
+                  ],
+                ),
+              ),
+            ],
+          ),
+        ),
       ),
     );
   }
