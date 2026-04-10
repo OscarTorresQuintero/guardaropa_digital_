@@ -1,3 +1,6 @@
+ feature/logic-api-provider
+ // lib/main.dart
+
 
 import 'package:flutter/material.dart';
 
@@ -123,6 +126,7 @@ class _MyHomePageState extends State<MyHomePage> {
 }
 
 // lib/main.dart
+ developer
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'providers/wardrobe_provider.dart';
@@ -160,5 +164,9 @@ class StyleStackApp extends StatelessWidget {
       home: const HomeScreen(),
     );
   }
+ feature/logic-api-provider
 }
 
+}
+
+ developer
